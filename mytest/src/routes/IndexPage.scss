@@ -1,0 +1,46 @@
+.Home {
+    height: 100%;
+    position: relative;
+    .mask {
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0, 0, 0, .56);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 22;
+    }
+    .maskActive {
+        // display: none;
+    }
+    .bg_img {
+        width: 100%;
+    }
+    .ruleBtnBg {
+        width: 22.9vw;
+        position: absolute;
+        right: 1.8vw;
+        top: 1.6vw;
+    }
+    .inviteBtnBg {
+        width: 100vw;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+    }
+    .inviteRecord {
+        width: 13.1vw;
+        position: fixed;
+        right: 5.1vw;
+        bottom: 19vw;
+        z-index: 1;
+    }
+}
+
+:global {
+    img {
+        border-style: none;
+        display: block;
+    }
+}

@@ -1,0 +1,126 @@
+.connent {
+    // visibility: hidden;
+    width: 100%;
+    margin-top: -2vw;
+    background: linear-gradient(180deg, #ff9412, #ff8502);
+    .integralFrame {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 6vw;
+        .integralFrameTop {
+            width: 100%;
+            margin-top: 1vw;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .TopText {
+                font-size: 4vw;
+                color: #fff;
+                font-weight: 800;
+                span {
+                    color: #ff2115;
+                    display: inline-block;
+                    padding: 0 1vw;
+                }
+            }
+            .NotFinished {
+                width: 16.9vw;
+            }
+        }
+        .unlockPoints {
+            width: 77vw;
+            position: relative;
+            z-index: 1;
+        }
+    }
+    .unlockPoints2 {
+        width: 100vw;
+        margin-top: -9vw;
+    }
+    .integralFrame2 {
+        width: 96vw;
+        padding-bottom: 36vw;
+        box-shadow: 0 0 1vw 1vw rgba(0, 0, 0, .1);
+        background: linear-gradient(90deg, #fddf91, #fffbc6 5%, #fffbc6 95%, #fddf91);
+        margin: -1.05vw auto;
+        .frame2title {
+            width: 96%;
+            margin: 3vw 2vw;
+        }
+        .integralFrame2Item {
+            width: 100%;
+            box-sizing: border-box;
+            margin-bottom: 4vw;
+            padding: 0 5vw;
+            .itemTop {
+                width: 100%;
+                margin-bottom: 2vw;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .itemTopText {
+                    font-size: 4vw;
+                    color: #fe8c16;
+                    font-weight: 700;
+                    white-space: nowrap;
+                    span {
+                        color: #ff2115;
+                        display: inline-block;
+                        padding: 0 1vw;
+                    }
+                    .samllspan {
+                        font-size: 2.4vw;
+                        font-family: FZLanTingHeiS-B-GB;
+                        color: #d57d1f;
+                    }
+                }
+                .NotFinished2 {
+                    width: 16.9vw;
+                }
+            }
+            .itemBottom {
+                width: 100%;
+                .itemBottombg {
+                    width: 100%;
+                }
+                .itemBottominput {
+                    width: 88%;
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    top: 5vw;
+                    margin: auto;
+                    display: flex;
+                    background-color: red;
+                }
+            }
+        }
+        .notes1 {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 0 5vw;
+            font-size: 2.8vw;
+            color: #fd9f48;
+            font-weight: 700;
+        }
+        .quanBanner {
+            width: 74.3vw;
+            margin: 5vw 11vw;
+        }
+        .notes2 {
+            text-align: center;
+            font-size: 4vw;
+            color: #ff4e00;
+            font-weight: 700;
+        }
+        .notes3 {
+            text-align: center;
+            font-size: 3.8vw;
+            color: #b85822;
+            font-weight: 700;
+            margin: 3vw auto;
+        }
+    }
+}
